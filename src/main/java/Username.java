@@ -2,10 +2,18 @@ import java.util.Scanner;
 
 public class Username {
     public static void main(String[] args) {
-        Scanner inputUser= new Scanner(System.in);
+        Scanner input= new Scanner(System.in);
         System.out.print("Enter Your Name: ");
-        String name = inputUser.nextLine();
-        System.out.println("Hey " + name);
+        String userinput = input.nextLine();
+        if(userinput == "Bob"){
+            System.out.println("Hey " + userinput);
+        if (userinput == "Alice"){
+            System.out.println("Hey " + userinput);
+        }
+
+        }
+  //      String name = inputUser.nextLine();
+  //      System.out.println("Hey " + name);
     }
 }
 
